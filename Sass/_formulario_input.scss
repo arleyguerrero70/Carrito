@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#formulario-input{
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+    background-color: #f5f5f5;
+}
+#formulario-input form{
+    grid-column: 2/10;
+    padding: 20px 0;
+    background-color: #fff;
+}
+#formulario-input form section{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+#formulario-input form section i{
+    display: inline-block;
+    width: 15px;
+    background-color: #A8A8A8;
+    padding: 10px;
+}
+#formulario-input form section input{
+    border: 1px solid #A8A8A8;
+    margin-right: 15px;
+    width: 30%;
+}
+#formulario-input form div {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+#formulario-input form div button{
+    margin-right: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+
+}

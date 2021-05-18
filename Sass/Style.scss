@@ -1,7 +1,15 @@
 @import "variables";
-@import "formulario";
+@import "formulario_input";
 @import "resumen";
+@import "header";
+@import "detalles";
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body{
     background-color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+}
+#container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 1.5em;
 }

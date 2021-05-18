@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#resumen__Container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 0 0;
+    border: 1px solid #ccc;
+}
+#resumen__Container div{
+    grid-column: 2 / 5;
+    background-color: blue;
+}
+#resumen__Container div h3{
+    text-align: center;
+}
+#resumen__Container .producto{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    border: 1px solid yellow;
+}
+#resumen__Container .producto img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellowgreen;
+}

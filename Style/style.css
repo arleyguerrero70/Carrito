@@ -1,6 +1,117 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#formulario-input {
+  display: grid;
+  grid-template-columns: repeat(10, 10%);
+  background-color: #f5f5f5;
+}
+
+#formulario-input form {
+  grid-column: 2/10;
+  padding: 20px 0;
+  background-color: #fff;
+}
+
+#formulario-input form section {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+#formulario-input form section i {
+  display: inline-block;
+  width: 15px;
+  background-color: #A8A8A8;
+  padding: 10px;
+}
+
+#formulario-input form section input {
+  border: 1px solid #A8A8A8;
+  margin-right: 15px;
+  width: 30%;
+}
+
+#formulario-input form div {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+#formulario-input form div button {
+  margin-right: 10px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+.resumen {
+  background-color: chocolate;
+}
+
+* {
+  border: 0;
+  padding: 0;
+}
+
+header {
+  display: grid;
+  grid-column: 1/6;
+  grid-row: 1/2;
+  background-color: #ffffff;
+  padding: 10px;
+  border-bottom: 5px solid #000;
+  text-align: left;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#resumen__Container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 0 0;
+  border: 1px solid #ccc;
+}
+
+#resumen__Container div {
+  grid-column: 2/5;
+  background-color: blue;
+}
+
+#resumen__Container div h3 {
+  text-align: center;
+}
+
+#resumen__Container .producto {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  border: 1px solid yellow;
+}
+
+#resumen__Container .producto img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellowgreen;
+}
+
 body {
   background-color: aliceblue;
+  font-family: "Roboto", sans-serif;
+}
+
+#container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 1.5em;
 }
 
 /*# sourceMappingURL=Style.css.map */

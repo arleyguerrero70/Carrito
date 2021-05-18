@@ -1,0 +1,13 @@
+*{
+    border: 0;
+    padding: 0;
+}
+header{
+    display: grid;
+    grid-column: 1 / 6;
+    grid-row: 1 / 2;
+    background-color: #ffffff;
+    padding: 10px;
+    border-bottom: 5px solid #000;
+    text-align: left;
+}

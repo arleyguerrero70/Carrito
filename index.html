@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,131 +8,66 @@
     <link rel="stylesheet" href="Style/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/223f2735c3.js" crossorigin="anonymous"></script>
     <title>Resumen de la orden</title>
 </head>
-<body>
-    <div class="container">
-        <section>
-            <h1>Dirección de envío</h1>
-        </section>
-        <div class="form">
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                            <figure>
-                                <img src="" alt="">
-                            </figure>
-                            <input type="form__Text" placeholder="Nombre">
-                        </td>
-                        <td>
-                            <figure>
-                                <img src="" alt="">
-                            </figure>
-                            <input type="text" placeholder="Apellido">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <figure>
-                                <img src="" alt="">
-                            </figure>
-                            <input type="email" placeholder="Correo Electrónico">
-                        </td>
-                        <td>
-                            <figure>
-                                <img src="" alt="">
-                            </figure>
-                            <input type="number" placeholder="Número de teléfono">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <figure>
-                                <img src="" alt="">
-                            </figure>
-                            <input type="text" placeholder="Código postal">
-                        </td>
-                        <td>
-                            <figure>
-                                <img src="" alt="">
-                            </figure>
-                            <input type="text" placeholder="Colonia">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <figure>
-                                <img src="" alt="">
-                            </figure>
-                            <input type="email" placeholder="Estado/Region">
-                        </td>
-                        <td>
-                            <figure>
-                                <img src="" alt="">
-                            </figure>
-                            <input type="number" placeholder="Ciudad">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <figure>
-                                <img src="" alt="">
-                            </figure>
-                            <input type="email" placeholder="Delegación o municipio">
-                        </td>
-                        <td>
-                            <figure>
-                                <img src="" alt="">
-                            </figure>
-                            <input type="email" placeholder="Calle">
-                        </td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td>
-                            <button>Libreta de direcciones</button>
-                            <button>Guardar</button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for=""><input type="checkbox">Utilizar como dirección de factuación</label>
-                        </td>
-                    </tr>
-                </tfoot>
-            </table>
-        </div>
-        <section clxass="resumen">
-            <div class="resumen__details">
-                <figure>
-                    <img src="" alt="">
-                </figure>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, qui.
-                </p>
-                <p>Lorem, ipsum dolor.</p>
-            </div>
-            <div class="resumen__Btn">
-               <button>Gaurdar</button>
-            </div>
-            <div class="resumen__Price">
-                <div class="resumen__Price__Subtotal">
-                    <p>subtotal</p>
-                    <p>Lorem ipsum dolor sit.</p>
-                </div>
-                <div class="resumen__Price__Envio">
-                    <p>subtotal</p>
-                    <p>Lorem ipsum dolor sit.</p>
-                </div>
-                <div class="resumen__Total">
-                    <p>TOTAL:</p>
-                    <p>Lorem, ipsum dolor.</p>
-                </div>
-            </div>
-        </section>
 
+<body>
+    <header>
+        <h1>Dirección de envío</h1>
+    </header>
+    <div id="container">
+        <div id="formulario-input">
+            <form action="">
+                <section>
+                    <i class="fas fa-user icon"></i>
+                    <input type="text" placeholder="Nombre" required>
+                    <i class="fas fa-user icon"></i>
+                    <input type="text" placeholder="Apellidos" required>
+                </section>
+                <section>
+                    <i class="fas fa-envelope icon"></i>
+                    <input type="email" placeholder="Correo electrónico" required>
+                    <i class="fas fa-phone-alt icon"></i>
+                    <input type="text" placeholder="Número de teléfono" required>
+                </section>
+                <section>
+                    <i class="fas fa-map-pin icon"></i>
+                    <input type="text" placeholder="Código postal" required>
+                    <i class="fas fa-map-marked-alt icon"></i>
+                    <input type="text" placeholder="Colonia" required>
+                </section>
+                <section>
+                    <i class="fas fa-map-marker-alt icon"></i>
+                    <input type="text" placeholder="Estado/Región" required>
+                    <i class="fas fa-city icon"></i>
+                    <input type="text" placeholder="Ciudad" required>
+                </section>
+                <section>
+                    <i class="fas fa-route icon"></i>
+                    <input type="text" placeholder="Delegación o municipio" required>
+                    <i class="fas fa-road icon"></i>
+                    <input type="text" placeholder="Calle" required>
+                </section>
+                <div class="start">
+                    <button type="submit">Libreta de direcciones</button>
+                    <button type="submit">Enviar</button>
+                </div>
+                <div>
+                    <label for=""><input type="checkbox">Utilizar como dirección de facturación.</label>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="resumen__Container">
+        <div><h3>Resumen de la orden</h3></div>
+        <div class="producto">
+            <div><img src="https://hacebco.vteximg.com.br/arquivos/ids/164290-100-100/7704353409932_1.jpg" alt=""></div>
+            <div><p>Set secadora gas 220w tapa ciega carga</p></div>
+            <div<p>$10,599.00</p></div>
+        </div>
+        <div><button>editar</button></div>
     </div>
 </body>
+
 </html>
